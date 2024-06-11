@@ -1,0 +1,49 @@
+{
+  "name": "@aredotna/icons",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "exports": {
+    "./*": "./dist/*.js"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn optimize && node scripts/build.js && yarn compile",
+    "clean": "rm -rf .build/svg && rm -rf .build/src && rm -rf dist",
+    "compile": "tsc -p .",
+    "optimize": "svgo src -o .build/svg --config=svgo.config.js",
+    "prepublish": "yarn build"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.0"
+  },
+  "devDependencies": {
+    "@svgr/core": "^6.3.1",
+    "@types/node": "^18.8.3",
+    "@types/react": "^18.0.21",
+    "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "lodash": "^4.17.21",
+    "svg-parser": "^2.0.4",
+    "svgo": "^3.0.2",
+    "typescript": "^4.8.3"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}
