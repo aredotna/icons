@@ -1,6 +1,6 @@
 # @aredotna/icons
 
-[@aredotna/icons](https://github.com/aredotna/icons) is the canonical source for icons used at Arena, and serves as an automatic build pipeline for generating JSX representations of `.svg` sources that can easily be imported into React apps.
+[@aredotna/icons](https://github.com/aredotna/icons) is the canonical source for icons used at Are.na, and serves as an automatic build pipeline for generating JSX representations of `.svg` sources that can easily be imported into React apps.
 
 You can view available icons [here](https://icons.are.na) and click to copy the import path of the desired icon.
 
@@ -10,8 +10,6 @@ You can view available icons [here](https://icons.are.na) and click to copy the 
 - **GitHub:** [https://github.com/aredotna/icons](https://github.com/aredotna/icons)
 - **CI/Deploys:** [CircleCi](https://circleci.com/gh/aredotna/icons); merged PRs to `aredotna/icons#main` are automatically deployed to NPM
 - **Point People:** [@dzucconi](https://github.com/dzucconi)
-
-[![Build Status](https://circleci.com/gh/aredotna/icons.svg?style=svg)](https://circleci.com/gh/aredotna/icons)
 
 ## Installation and Usage
 
