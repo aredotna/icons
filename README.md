@@ -2,8 +2,6 @@
 
 [@aredotna/icons](https://github.com/aredotna/icons) is the canonical source for icons used at Are.na, and serves as an automatic build pipeline for generating JSX representations of `.svg` sources that can easily be imported into React apps.
 
-You can view available icons [here](https://icons.are.na) and click to copy the import path of the desired icon.
-
 ## Meta
 
 - **State:** production
