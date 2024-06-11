@@ -8,7 +8,7 @@ You can view available icons [here](https://icons.are.na) and click to copy the 
 
 - **State:** production
 - **GitHub:** [https://github.com/aredotna/icons](https://github.com/aredotna/icons)
-- **CI/Deploys:** [CircleCi](https://circleci.com/gh/aredotna/icons); merged PRs to `aredotna/icons#main` are automatically deployed to NPM
+- **CI/Deploys:** Manually published to NPM for the time being
 - **Point People:** [@dzucconi](https://github.com/dzucconi)
 
 ## Installation and Usage
