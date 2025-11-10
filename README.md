@@ -18,7 +18,7 @@ yarn add @aredotna/icons
 And then later, import icons like so:
 
 ```tsx
-import ArenaLogo from "@aredotna/icons/ArenaLogo"
+import ArenaLogo from "@aredotna/icons/ArenaLogoIcon";
 
 const MyApp = () => {
   return <ArenaLogo />
